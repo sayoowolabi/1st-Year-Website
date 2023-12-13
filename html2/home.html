@@ -13,15 +13,11 @@
     <section>
         <header id="indexHeader">
             <nav class="navbar">
-                <a href="../html2/index_page.html">Home</a>
+                <a href="../html2/home.html">Home</a>
                 <a href="../html2/international_page.html">International Hub</a>
                 <a href="../html2/forums_page.html">Forums</a>
                 <a href="../html2/events_page.html">Events Hub</a>
-                <a href="../html2/login.html">Log In</a>                <form action="/action_page.php">
-                    <input type="text" placeholder="Username" name="username">
-                    <input type="password" placeholder="Password" name="psw">
-                    <button type="submit">Login</button>
-                </form>
+                <button> <a href="../html2/index_page.html">Log Out</a></button>
             </nav>
             <div class="pageDesc">
                 <h1>Welcome to Uni-Verse!</h1>
@@ -61,14 +57,14 @@
                     <label id="I-p2">
                         Do you study in one of these Universities?
                     </label>
-                        <select class="university" name="university" onchange="UNI()" id="universitySelect">
-                            <option value="">Select One …</option>
-                            <option value="UCD">UCD</option>
-                            <option value="DCU">DCU</option>
-                            <option value="TUD">TUD</option>
-                        </select>
+                    <select class="university" name="university" onchange="UNI()" id="universitySelect">
+                        <option value="">Select One …</option>
+                        <option value="UCD">UCD</option>
+                        <option value="DCU">DCU</option>
+                        <option value="TUD">TUD</option>
+                    </select>
 
-                        <p id="message"></p>
+                    <p id="message"></p>
                 </div>
             </div>
         </div>
