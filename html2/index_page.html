@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="../css2/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<header id="indexHeader">
+    <nav class="navbar">
+        <a href="../html2/index_page.html">Home</a>
+        <a href="../html2/international_page.html">International Hub</a>
+        <a href="../html2/forums_page.html">Forums</a>
+        <a href="../html2/events_page.html">Events Hub</a>
+        <a href="../html2/login.html">Log In</a>
+        <form action="/action_page.php">
+            <input type="text" placeholder="Username" name="username">
+            <input type="password" placeholder="Password" name="psw">
+            <button type="submit">Login</button>
+        </form>
+    </nav>
+    <div class="pageDesc">
+        <h1>LOG IN</h1>
+
+    </div>
+</header>
+
+<body id="homeBody">
+
+    <form onsubmit="return validateForm()" action="./index_page.html" class="forumForm">
+        <label for="email" id="C-p1">Email:</label>
+        <div>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+        </div>
+        <label for="name" id="C-p1">Name:</label>
+        <div>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required id="C-p1">
+        </div>
+        <label for="pwd" required>Password:</label>
+        <div>
+            <input type="password" id="pwd" name="pwd" placeholder="Enter Your Password" required id="C-p1">
+        </div>
+        <button type="submit">Sign in</button>
+    </form>
+
+</body>

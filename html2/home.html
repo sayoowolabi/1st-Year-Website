@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Verse</title>
+    <link rel="stylesheet" type="text/css" href="../css2/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body id="homeBody">
+    <section>
+        <header id="indexHeader">
+            <nav class="navbar">
+                <a href="../html2/index_page.html">Home</a>
+                <a href="../html2/international_page.html">International Hub</a>
+                <a href="../html2/forums_page.html">Forums</a>
+                <a href="../html2/events_page.html">Events Hub</a>
+                <a href="../html2/login.html">Log In</a>                <form action="/action_page.php">
+                    <input type="text" placeholder="Username" name="username">
+                    <input type="password" placeholder="Password" name="psw">
+                    <button type="submit">Login</button>
+                </form>
+            </nav>
+            <div class="pageDesc">
+                <h1>Welcome to Uni-Verse!</h1>
+                <h2>Irish Student Body United</h2>
+            </div>
+        </header>
+
+        <div class="alert alert-danger" role="alert">
+            Make sure to read the <a href="../html2/forums_page.html" class="alert-link">Uni-Verse rules</a>!
+        </div>
+
+        <div class="">
+            <div class="">
+                <div class="">
+                    <div class="indexImages">
+                        <table>
+                            <tr>
+                                <td>
+
+                                    <img id="indexImg" src="../pictures/personwithphone.jpg" alt="Person using a phone"
+                                        width="300" height="200">
+                                </td>
+                                <td>
+                                    <img id="indexImg" src="../pictures/pplwithphones.jpg"
+                                        alt="Group of people using their phones" width="300" height="200">
+                                </td>
+                                <td>
+                                    <img id="indexImg" src="../pictures/groupoffriends.jpg"
+                                        alt="Group of friends talking" width="300" height="200">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="colourBox">U.V is here to help you stay in the know with all the exciting things going
+                        on in Irish
+                        Universities!</div>
+                    <label id="I-p2">
+                        Do you study in one of these Universities?
+                    </label>
+                        <select class="university" name="university" onchange="UNI()" id="universitySelect">
+                            <option value="">Select One …</option>
+                            <option value="UCD">UCD</option>
+                            <option value="DCU">DCU</option>
+                            <option value="TUD">TUD</option>
+                        </select>
+
+                        <p id="message"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>©2023 Created by Sayo Owolabi</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="../script/newjava.js"></script>
+</body>
+
+</html>

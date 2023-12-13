@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+/* FONT */
+*{
+    font-family: 'Gabarito';
+}
+
+label{
+    position: relative;
+}
+
+#I-p1 {
+    font-size:larger;
+    color: #272324;
+    margin-bottom: 80px;
+    
+}
+
+#I-p2 {
+    font-size:x-large;
+    color: #362f30;
+    /* text-align: center; */
+    margin-left: 520px;
+    margin-top: 50px;
+   
+}
+#I-p2 {
+    font-size:x-large;
+    color: #362f30;
+    /* text-align: center; */
+    margin-left: 520px;
+    margin-top: 50px;
+   
+}
+
+#C-p1 {
+    color: #362f30;
+   
+   
+   
+}
+
+#IH-p2 {
+    color: #594347;
+    font-size: xx-large;
+    margin-left: 520px;
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+#IH-p3 {
+    color: #594347;
+    font-size: x-large;
+    margin-left: 520px;
+    margin-top: 50px;
+   
+}
+
+#tud-club {
+    color: #362f30;
+    margin-left: 520px;
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+#nationality-list {
+    color: #362f30;
+    margin-left: 520px;
+    margin-top: 50px;
+}
+
+
+
+/* BODIES */
+#intlBody {
+    background-color: #f5d4dd;
+}
+
+#homeBody {
+    background-color: #F2B3CA;
+}
+
+#forumsBody {
+    background-color:#5943479b;
+}
+
+#eventBody {
+    background-color:#594347;
+}
+
+
+
+/* HEADERS */
+#internationalHeader{
+    /* background-image: url('../pictures/globe.png'); */
+    background-color: #3a3737;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 252, 254);
+    text-align: center;
+    height: 250px;
+    /* padding: 100px 0; */
+}
+
+#eventsHeader{
+    /* background-image: url('../pictures/globe.png'); */
+    background-color: #3a3737;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 252, 254);
+    text-align: center;
+    height: 250px;
+    /* padding: 100px 0; */
+}
+
+#indexHeader{
+    /* background-image: url('../pictures/globe.png'); */
+    background-color: #594347;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 252, 254);
+    text-align: center;
+    height: 250px;
+    /* padding: 100px 0; */
+}
+
+#forumsHeader{
+    /* background-image: url('../pictures/globe.png'); */
+    background-color: #3a3737;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 252, 254);
+    text-align: center;
+    height: 250px;
+    /* padding: 100px 0; */
+}
+
+
+/* NAVBAR*/
+.navbar {
+    background-color:#f6dde6;
+    overflow: hidden;
+    float: center;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* font-family: 'Gabarito'; */
+}
+
+.navbar a{
+   color: #594347;
+}
+
+
+/* PAGE DESC */
+.pageDesc h1{
+    margin-top: 55px;
+}
+
+/* IMAGES */
+.indexImages{
+    margin-left: 180px;
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px #888;
+}
+
+#indexImg {
+    margin-right: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+/* FOOTER */
+footer {
+    background-color:#f6dde6;
+    color: #594347;
+    text-align: center;
+    padding: 10px;
+    margin-top: 220px;
+    
+}
+
+/* INDEX */
+.colourBox{
+    background: #fff;
+    font-family: Montserrat, sans-serif;;
+    font-size: 24px;
+    /* line-height: 30px; */
+    font-weight: bold;
+    color: #594347;
+    padding: 40px;
+    box-shadow:
+        inset #594347 0 0 0 5px, 
+      inset #F294B6 0 0 0 1px, 
+      inset #F294B6 0 0 0 10px, 
+      inset #F2A2C0 0 0 0 11px, 
+      inset #F2BBC9 0 0 0 16px, 
+      inset #f6dde6 0 0 0 17px, 
+      inset #f9e5ee 0 0 0 21px, 
+      inset #fae7f0 0 0 0 22px;
+    text-shadow: 3px 3px 1px #f8d6e6;
+    margin-left: 520px;
+    width: 440px;
+  }
+
+
+  /* INTERNATIONAL HUB */
+
+  #ihTable{
+    margin-top: 60px;
+  }
+
+  /* CONTACT US */
+#contact{
+    color: #594347;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
+    background-color: red;
+    
+}
+
+
+
+
+
+
+
+.forumForm{
+    background-color: #F294B6;
+    border-radius: 10px;
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.forumForm button{
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: green;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    margin-left: 17.8rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
